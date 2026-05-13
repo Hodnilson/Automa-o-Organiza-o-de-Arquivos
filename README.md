@@ -1,41 +1,37 @@
 # Organizador Automático de Arquivos 🗂️
 
-Um script em Python robusto e moderno para organizar seus arquivos desordenados em pastas categorizadas por tipo (Documentos, Imagens, Vídeos, Música, etc).
+Um utilitário robusto e moderno para organizar seus arquivos desordenados em pastas categorizadas. Agora com uma interface gráfica premium e suporte a Windows!
 
-## ✨ Funcionalidades
+## ✨ Novidades da Versão 2.0
 
-- **Categorização Inteligente:** Move arquivos automaticamente com base na extensão.
-- **Proteção contra Duplicatas:** Se um arquivo com o mesmo nome já existir no destino, o script adiciona um sufixo numérico (ex: `foto_1.jpg`) em vez de sobrescrever.
-- **Segurança:** Solicita confirmação do usuário antes de iniciar a movimentação.
-- **Relatório Detalhado:** Exibe um resumo de quantos arquivos foram movidos para cada categoria.
-- **Moderno:** Utiliza a biblioteca `pathlib` para manipulação de caminhos de forma segura em qualquer sistema operacional.
+- **Interface Gráfica (GUI) Premium:** Design moderno com suporte a Dark Mode.
+- **Versão Windows:** Executável nativo `.exe` que funciona em qualquer PC sem precisar de Python.
+- **Barra de Progresso:** Acompanhe em tempo real a organização dos seus arquivos.
+- **Log em Tempo Real:** Veja exatamente qual arquivo está sendo movido e para onde.
+- **Diálogo Nativo:** Selecione pastas usando o explorador de arquivos padrão do seu sistema.
 
 ## 🚀 Como Usar
 
-1. Certifique-se de ter o Python 3 instalado.
-2. Baixe o arquivo `organizador.py`.
-3. Execute o script no terminal:
+### No Windows
+1. Baixe o arquivo `organizador_windows.exe`.
+2. Dê um clique duplo para abrir.
+3. Selecione a pasta desejada e clique em **Organizar**.
 
+### No Linux
+1. Execute o script ou o executável via terminal:
 ```bash
-# Para organizar a pasta onde o script está
-python3 organizador.py
-
-# Para organizar uma pasta específica
-python3 organizador.py /caminho/para/sua/pasta
+./organizador
 ```
 
-## 📂 Categorias Padrão
+## 📂 Categorias e Organização
 
-- **Documentos:** .pdf, .docx, .txt, .xlsx, .pptx, etc.
-- **Imagens:** .jpg, .jpeg, .png, .gif, .svg, etc.
-- **Vídeos:** .mp4, .mkv, .mov, .avi, etc.
-- **Música:** .mp3, .wav, .flac, etc.
-- **Outros:** Qualquer arquivo que não se encaixe nas categorias acima.
-
-## 🛠️ Requisitos
-
-- Python 3.6+
-- Bibliotecas padrão (`pathlib`, `shutil`, `logging`) - nenhuma instalação externa necessária.
+O script identifica e separa automaticamente:
+- **📄 Documentos:** PDF, Word, Excel, Texto, etc.
+- **🖼️ Imagens:** JPG, PNG, GIF, SVG, WebP, etc.
+- **🎬 Vídeos:** MP4, MKV, MOV, etc.
+- **🎵 Música:** MP3, WAV, FLAC, etc.
+- **📦 Outros:** Arquivos diversos.
 
 ---
-Desenvolvido com ❤️ para manter seu computador organizado.
+Desenvolvido para facilitar a sua vida digital. 🚀
+
