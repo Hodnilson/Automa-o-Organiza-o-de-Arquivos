@@ -4,3 +4,9 @@ __pycache__/
 .vscode/
 .idea/
 *.log
+
+# PyInstaller
+build/
+dist/
+*.spec
+.venv/
